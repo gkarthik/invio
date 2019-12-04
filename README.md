@@ -8,9 +8,15 @@ The script broadly has three parts,
 3. Animate incidence rates and case counts with tweening
 
 ## Install dependencies
+
+* Python dependencies
 ```
 pip install -r requirements.txt
 ```
+
+* [ffmpeg](https://ffmpeg.org/)
+
+Add the path to ffmpeg on line 23 of [invio.py](./scripts/invio.py)
 
 ## Output
 

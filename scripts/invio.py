@@ -19,6 +19,7 @@ import matplotlib.gridspec as gridspec
 
 import datetime
 
+# Add path to ffmpeg here
 plt.rcParams['animation.ffmpeg_path'] = u'/usr/bin/ffmpeg'
 
 ##############
