@@ -1,6 +1,6 @@
 # Invio
 
-Plot incidence rates and case counts.
+Animate incidence rates on geographic projections and cummulative case counts over time with tweening.
 
 The script broadly has three parts,
 1. Compute incidence rates and case counts.
