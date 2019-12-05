@@ -136,6 +136,7 @@ scaleax.set_ylabel("Incidence rate per 100,000 humans")
 
 mapax.set_xlim([ll[0], ur[0]])
 mapax.set_ylim([ll[1], ur[1]])
+mapax.axis('equal')
 # Year
 ytext = yearax.annotate("1999", (0,0), size = 30, family="sans-serif")
 
