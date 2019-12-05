@@ -182,6 +182,7 @@ def animate(i):
 
 print("Generating video ... ")
 plt.suptitle("{} case counts".format(disease.title()), fontsize = 30)
+# Modify _frames to change duration and speed. FPS is set at 45.
 _frames = (len(_times) - 1) * 10
 # _frames = 500
 anim = animation.FuncAnimation(plt.gcf(), animate, frames=_frames + 1, interval = 20, blit=True, repeat=False)
