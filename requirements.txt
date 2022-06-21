@@ -2,5 +2,5 @@ fiona==1.8.11
 shapely==1.6.4.post2
 matplotlib==3.1.1
 pandas==0.25.1
-numpy==1.17.1
+numpy==1.22.0
 pyproj==2.4.2.post1
